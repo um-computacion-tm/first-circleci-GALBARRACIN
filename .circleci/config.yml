@@ -9,5 +9,5 @@ jobs:
           name: Install dependencies
           command: pip install -r requirements.txt
       - run:
-          name: Running Tests
+          name: Run tests
           command: coverage run -m unittest && coverage xml && coverage report -m
